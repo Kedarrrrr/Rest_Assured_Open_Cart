@@ -2,11 +2,8 @@ package API_tests;
 
 import java.util.HashMap;
 import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
-import static org.hamcrest.Matchers.*;
 import org.testng.annotations.Test;
 
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 public class RA_2 {
