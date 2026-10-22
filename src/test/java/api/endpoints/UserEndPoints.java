@@ -3,6 +3,7 @@ package api.endpoints;
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.*;
 
+import api.payload.User;
 import io.restassured.http.ContentType;
 public class UserEndPoints {
 
