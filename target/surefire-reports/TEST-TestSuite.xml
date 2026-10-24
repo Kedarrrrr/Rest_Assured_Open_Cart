@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="10.146" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\kedar\Desktop\projects\API_Project\target\test-classes;C:\Users\kedar\Desktop\projects\API_Project\target\classes;C:\Users\kedar\.m2\repository\io\rest-assured\rest-assured\6.1.0\rest-assured-6.1.0.jar;C:\Users\kedar\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\kedar\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\kedar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\kedar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\kedar\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\kedar\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\kedar\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\kedar\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\kedar\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\kedar\.m2\repository\io\rest-assured\json-path\6.1.0\json-path-6.1.0.jar;C:\Users\kedar\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\kedar\.m2\repository\io\rest-assured\rest-assured-common\6.1.0\rest-assured-common-6.1.0.jar;C:\Users\kedar\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\kedar\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\kedar\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\kedar\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\kedar\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\kedar\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\kedar\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\kedar\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\kedar\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\kedar\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\kedar\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\kedar\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\kedar\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\kedar\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\kedar\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\kedar\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\kedar\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\kedar\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\kedar\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\kedar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\kedar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\kedar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\kedar\.m2\repository\io\rest-assured\xml-path\6.1.0\xml-path-6.1.0.jar;C:\Users\kedar\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\kedar\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\kedar\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\kedar\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\kedar\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\kedar\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\kedar\.m2\repository\io\rest-assured\json-schema-validator\6.1.0\json-schema-validator-6.1.0.jar;C:\Users\kedar\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\kedar\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\kedar\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\kedar\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\kedar\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\kedar\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\kedar\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\kedar\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\kedar\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\kedar\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\kedar\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\kedar\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\kedar\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\kedar\.m2\repository\com\networknt\json-schema-validator\2.0.8\json-schema-validator-2.0.8.jar;C:\Users\kedar\.m2\repository\com\ethlo\time\itu\1.14.0\itu-1.14.0.jar;C:\Users\kedar\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\kedar\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\kedar\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\kedar\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\kedar\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\kedar\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\kedar\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\kedar\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\kedar\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\kedar\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\kedar\AppData\Local\Temp\surefire3442072360561243183\surefirebooter-20261024114153415_3.jar C:\Users\kedar\AppData\Local\Temp\surefire3442072360561243183 2026-10-24T11-41-53_052-jvmRun1 surefire-20261024114153415_1tmp surefire_0-20261024114153415_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\kedar\Desktop\projects\API_Project\target\test-classes;C:\Users\kedar\Desktop\projects\API_Project\target\classes;C:\Users\kedar\.m2\repository\io\rest-assured\rest-assured\6.1.0\rest-assured-6.1.0.jar;C:\Users\kedar\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\kedar\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\kedar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\kedar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\kedar\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\kedar\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\kedar\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\kedar\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\kedar\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\kedar\.m2\repository\io\rest-assured\json-path\6.1.0\json-path-6.1.0.jar;C:\Users\kedar\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\kedar\.m2\repository\io\rest-assured\rest-assured-common\6.1.0\rest-assured-common-6.1.0.jar;C:\Users\kedar\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\kedar\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\kedar\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\kedar\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\kedar\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\kedar\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\kedar\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\kedar\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\kedar\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\kedar\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\kedar\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\kedar\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\kedar\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\kedar\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\kedar\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\kedar\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\kedar\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\kedar\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\kedar\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\kedar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\kedar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\kedar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\kedar\.m2\repository\io\rest-assured\xml-path\6.1.0\xml-path-6.1.0.jar;C:\Users\kedar\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\kedar\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\kedar\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\kedar\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\kedar\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\kedar\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\kedar\.m2\repository\io\rest-assured\json-schema-validator\6.1.0\json-schema-validator-6.1.0.jar;C:\Users\kedar\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\kedar\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\kedar\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\kedar\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\kedar\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\kedar\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\kedar\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\kedar\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\kedar\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\kedar\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\kedar\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\kedar\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\kedar\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\kedar\.m2\repository\com\networknt\json-schema-validator\2.0.8\json-schema-validator-2.0.8.jar;C:\Users\kedar\.m2\repository\com\ethlo\time\itu\1.14.0\itu-1.14.0.jar;C:\Users\kedar\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\kedar\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\kedar\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\kedar\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\kedar\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\kedar\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\kedar\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\kedar\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\kedar\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\kedar\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\kedar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\kedar\Desktop\projects\API_Project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\kedar\AppData\Local\Temp\surefire3442072360561243183\surefirebooter-20261024114153415_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.1+12-LTS-29"/>
+    <property name="user.name" value="kedar"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\kedar\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\kedar\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.1"/>
+    <property name="user.dir" value="C:\Users\kedar\Desktop\projects\API_Project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\System32\cmd.exe;C:\MinGW\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Docker\Docker\resources\bin;K:\apache-maven-3.9.16-bin\apache-maven-3.9.16\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\kedar\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\kedar\AppData\Local\Programs\Python\Python311\;C:\Users\kedar\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\kedar\AppData\Local\Programs\Python\Python310\;C:\Users\kedar\AppData\Local\Microsoft\WindowsApps;C:\MinGW\mingw32\bin;C:\Users\kedar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kedar\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jre-1.8\bin;C:\Program Files\Java\jdk-21\bin;C:\Users\kedar\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.1+12-LTS-29"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="PostUser" classname="api.test.UserTest" time="3.536">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Sat, 24 Oct 2026 06:11:57 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "708348097"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="GetUser" classname="api.test.UserTest" time="1.514">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Sat, 24 Oct 2026 06:11:59 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 708348097,
+    "username": "chana.ebert",
+    "lastName": "Terry",
+    "email": "sarah.ullrich@example.com",
+    "password": "ghgwrx4hf",
+    "phone": "148-881-4927",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="UpdateUser" classname="api.test.UserTest" time="2.435">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Sat, 24 Oct 2026 06:12:00 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "708348097"
+}
+HTTP/1.1 200 OK
+Date: Sat, 24 Oct 2026 06:12:01 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 708348097,
+    "username": "chana.ebert",
+    "lastName": "Krajcik",
+    "email": "cliff.berge@example.com",
+    "password": "ghgwrx4hf",
+    "phone": "148-881-4927",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="DeleteUser" classname="api.test.UserTest" time="1.59"/>
+</testsuite>

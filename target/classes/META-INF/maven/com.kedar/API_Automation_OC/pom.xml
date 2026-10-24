@@ -3,7 +3,37 @@
   <groupId>com.kedar</groupId>
   <artifactId>API_Automation_OC</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+  <build>
+    <pluginManagement>
+        <plugins>
+            
+            <!-- Maven Surefire Plugin (Move configuration here) -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M7</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+            
+            <!-- Maven Compiler Plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.10.1</version>
+            </plugin>
+
+        </plugins>
+    </pluginManagement>
+</build>
+
+<properties>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
+</properties>
   <dependencies>
   	<dependency>
       <groupId>io.rest-assured</groupId>
@@ -49,33 +79,24 @@
       <version>6.1.0</version>
       <scope>test</scope>
 </dependency>
-
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.1</version> <!-- Or your preferred version -->
+</dependency>
 <dependency>
       <groupId>io.rest-assured</groupId>
       <artifactId>json-schema-validator</artifactId>
       <version>6.1.0</version>
       <scope>test</scope>
 </dependency>
-  	<dependency>
-  		<groupId>com.Kedar</groupId>
-  		<artifactId>complete_UI_testing</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+
   	<dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.11.0</version>
     <scope>test</scope>
 </dependency>
-  	<dependency>
-  		<groupId>com.kedar</groupId>
-  		<artifactId>practice-test</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>com.orangeHrm</groupId>
-  		<artifactId>Web_Testing</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+
   </dependencies>
 </project>

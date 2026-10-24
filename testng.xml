@@ -6,8 +6,6 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="API_tests.RA_case"/>
-      <class name="API_tests.RA_2"/>
       <class name="api.test.UserTest"/>
     </classes>
   </test> <!-- Test -->
